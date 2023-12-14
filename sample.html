@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+form{
+    text-align:center;
+    }
+    input:focus{
+           border:5px solid lightblue;
+           box-shadow:10px 10px 10px black;
+           color: blue;
+           width:300px;
+  height:100px;
+           }
+
+/* visited link */
+a:visited 
+{
+  color: yellow;
+}
+
+/* unvisited link */
+a:link {
+  color:green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+a.highlight:hover {
+  color: #ff0000;
+  font-size: 22px;
+} 
+p:first-child i {
+  color: blue;
+} 
+q:lang(no) {
+  quotes: "" "";
+}
+</style>
+</head>
+<body>
+
+<p>Some text <q lang="no">A quote in a paragraph</q> Some text.</p>
+<p>In this example, :lang defines the quotation marks for q elements with lang="no":</p>
+
+    <p>I am a <i>strong</i> person. I am a <i>strong</i> person.</p>
+<p>I am a <i>strong</i> person. I am a <i>strong</i> person.</p>
+
+<div>
+  <p>I am a <i>strong</i> person. I am a <i>strong</i> person.</p>
+  <p>I am a <i>strong</i> person. I am a <i>strong</i> person.</p>
+</div>
+
+
+<h2>Pseudo-classes and HTML Classes</h2>
+
+<p>When you hover over the first link below, it will change color and font size:</p>
+
+<p><a class="highlight" href="css_syntax.asp">CSS Syntax</a></p>
+
+<p><a href="default.asp">CSS Tutorial</a></p>
+
+
+<h2>Styling a link depending on state</h2>
+
+<p><b><a href="https://www.javatpoint.com/css-pseudo-classes" target="_blank">This is a link</a></b></p>
+<p><b>Note:</b> a:hover MUST come after a:link and a:visited in the CSS definition in order to be effective.</p>
+<p><b>Note:</b> a:active MUST come after a:hover in the CSS definition in order to be effective.</p>
+     
+    <form>
+      <h1>Name: <input type="text" value="Enter your name"></h1>
+     </form>
+</body>
+</html>

@@ -1,0 +1,31 @@
+#A1{
+
+    background-image: conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow 180deg, green 180deg, green 270deg, blue 270deg);
+    border-radius: 50%;
+    background-image: conic-gradient(from 90deg, red, yellow, green);
+    background-image: conic-gradient(at 60% 45%, red, yellow, green);
+    background-image: repeating-conic-gradient(red 10%, yellow 20%);  border-radius: 50%;
+    background-image: repeating-conic-gradient(red 0deg 10deg, yellow 10deg 20deg, blue 20deg 30deg); border-radius: 50%;
+}
+
+/* Combinators */
+#table1>p {
+    background-color: chartreuse;
+    font-style: italic;
+  }
+  
+  
+/* Pesudo Classes */
+#A2:link{
+    color: yellow;
+}
+#A2:visited{
+    color: blue;
+}
+#A2.highlight:hover{
+    color: rgb(160, 241, 79);
+    font-size: 20;
+}
+#A2:active{
+    color: red;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(27, 255, 247);
+  width:auto;
+  align-items: baseline;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 110px;
+  margin: 11px;
+   
+}
+p {
+  color: rgb(26, 18, 237);
+  font-size: large;
+}
+
+div marquee{
+    width: 100px; line-height: 30px; font-size: 1cm;
+}
+
+div img{
+    width: 110px; height: 130px;
+}
+
+
+p.ex1 {display: none;}
+p.ex2 {display: inline;}
+p.ex3 {display: block;}
+p.ex4 {display: inline-block;}
+</style>
+</head>
+<body>
+    <h1>Flexible Boxes</h1>
+
+<div class="flex-container">
+    <div><marquee behavior="" direction="right">1</marquee></div>
+    <div><marquee behavior="" direction="right">2</marquee></div>
+    <div><marquee behavior="" direction="right">3</marquee></div>  
+    <div><marquee behavior="" direction="right">4</marquee></div>
+    <div><marquee behavior="" direction="right">5</marquee></div>
+    <div><marquee behavior="" direction="right">6</marquee></div>  
+    <div><marquee behavior="" direction="right">7</marquee></div>
+    <div><marquee behavior="" direction="right">8</marquee></div>
+    <div><marquee behavior="" direction="right">9</marquee></div>  
+    <div><marquee behavior="" direction="right">10</marquee></div>
+    <div><marquee behavior="" direction="right">11</marquee></div>
+    <div><marquee behavior="" direction="right">12</marquee></div>
+</div>
+
+<h1 align="center">Flexible Boxes</h1>
+
+<div class="flex-container">
+    <div><marquee><img src="D:\Chrome Images\images.jpeg" alt="" ></marquee></div>
+    <div><marquee><img src="D:\Chrome Images\images.jpeg" alt="" ></marquee></div>
+    <div><marquee><img src="D:\Chrome Images\images.jpeg" alt="" ></marquee></div>
+    <div><marquee><img src="D:\Chrome Images\images.jpeg" alt="" ></marquee></div>
+    <div><marquee><img src="D:\Chrome Images\images.jpeg" alt="" ></marquee></div>
+    <div><marquee><img src="D:\Chrome Images\images.jpeg" alt="" ></marquee></div>
+    <div><marquee><img src="D:\Chrome Images\images.jpeg" alt="" ></marquee></div>
+    <div><marquee><img src="D:\Chrome Images\images.jpeg" alt="" ></marquee></div>
+    <div><marquee><img src="D:\Chrome Images\images.jpeg" alt="" ></marquee></div>
+    <div><marquee><img src="D:\Chrome Images\images.jpeg" alt="" ></marquee></div>
+    <div><marquee><img src="D:\Chrome Images\images.jpeg" alt="" ></marquee></div>
+    <div><marquee><img src="D:\Chrome Images\images.jpeg" alt="" ></marquee></div>
+    
+</div>
+
+<p>Try to resize the browser window.</p>
+<p>A container with "flex-wrap: nowrap;" will never wrap its items.</p>
+<p><strong>Note:</strong> Flexbox is not supported in Internet Explorer 10 or earlier versions.</p>
+
+<h1>The display Property</h1>
+
+<h2>display: none:</h2>
+<div>
+1Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. <p class="ex1">HELLO WORLD!</p> Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.
+</div>
+
+<h2>display: inline:</h2>
+<div>
+2Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. <p class="ex2">HELLO WORLD!</p> Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.
+</div>
+
+<h2>display: block:</h2>
+<div>
+3Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. <p class="ex3">HELLO WORLD!</p> Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.
+</div>
+
+<h2>display: inline-block:</h2>
+<div>
+4Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. <p class="ex4">HELLO WORLD!</p> Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.
+</div>
+
+</body>
+</html>
